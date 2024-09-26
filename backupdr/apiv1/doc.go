@@ -65,21 +65,19 @@
 //	}
 //	defer c.Close()
 //
-//	req := &backupdrpb.CreateManagementServerRequest{
+//	req := &backupdrpb.AbandonBackupRequest{
 //		// TODO: Fill request struct fields.
-//		// See https://pkg.go.dev/cloud.google.com/go/backupdr/apiv1/backupdrpb#CreateManagementServerRequest.
+//		// See https://pkg.go.dev/cloud.google.com/go/backupdr/apiv1/backupdrpb#AbandonBackupRequest.
 //	}
-//	op, err := c.CreateManagementServer(ctx, req)
+//	op, err := c.AbandonBackup(ctx, req)
 //	if err != nil {
 //		// TODO: Handle error.
 //	}
 //
-//	resp, err := op.Wait(ctx)
+//	err = op.Wait(ctx)
 //	if err != nil {
 //		// TODO: Handle error.
 //	}
-//	// TODO: Use resp.
-//	_ = resp
 //
 // # Use of Context
 //
