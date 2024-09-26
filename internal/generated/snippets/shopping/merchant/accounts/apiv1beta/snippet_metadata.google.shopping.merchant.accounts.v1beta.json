@@ -1,7 +1,7 @@
 {
   "clientLibrary": {
     "name": "cloud.google.com/go/shopping/merchant/accounts/apiv1beta",
-    "version": "0.10.0",
+    "version": "$VERSION",
     "language": "GO",
     "apis": [
       {
@@ -458,6 +458,98 @@
           "service": {
             "shortName": "AccountsService",
             "fullName": "google.shopping.merchant.accounts.v1beta.AccountsService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 18,
+          "end": 53,
+          "type": "FULL"
+        }
+      ]
+    },
+    {
+      "regionTag": "merchantapi_v1beta_generated_AutofeedSettingsService_GetAutofeedSettings_sync",
+      "title": "merchantapi GetAutofeedSettings Sample",
+      "description": "GetAutofeedSettings retrieves the autofeed settings of an account.",
+      "file": "AutofeedSettingsClient/GetAutofeedSettings/main.go",
+      "language": "GO",
+      "clientMethod": {
+        "shortName": "GetAutofeedSettings",
+        "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsClient.GetAutofeedSettings",
+        "parameters": [
+          {
+            "type": "context.Context",
+            "name": "ctx"
+          },
+          {
+            "type": "accountspb.GetAutofeedSettingsRequest",
+            "name": "req"
+          },
+          {
+            "type": "...gax.CallOption",
+            "name": "opts"
+          }
+        ],
+        "resultType": "*accountspb.AutofeedSettings",
+        "client": {
+          "shortName": "AutofeedSettingsClient",
+          "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsClient"
+        },
+        "method": {
+          "shortName": "GetAutofeedSettings",
+          "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsService.GetAutofeedSettings",
+          "service": {
+            "shortName": "AutofeedSettingsService",
+            "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 18,
+          "end": 53,
+          "type": "FULL"
+        }
+      ]
+    },
+    {
+      "regionTag": "merchantapi_v1beta_generated_AutofeedSettingsService_UpdateAutofeedSettings_sync",
+      "title": "merchantapi UpdateAutofeedSettings Sample",
+      "description": "UpdateAutofeedSettings updates the autofeed settings of an account.",
+      "file": "AutofeedSettingsClient/UpdateAutofeedSettings/main.go",
+      "language": "GO",
+      "clientMethod": {
+        "shortName": "UpdateAutofeedSettings",
+        "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsClient.UpdateAutofeedSettings",
+        "parameters": [
+          {
+            "type": "context.Context",
+            "name": "ctx"
+          },
+          {
+            "type": "accountspb.UpdateAutofeedSettingsRequest",
+            "name": "req"
+          },
+          {
+            "type": "...gax.CallOption",
+            "name": "opts"
+          }
+        ],
+        "resultType": "*accountspb.AutofeedSettings",
+        "client": {
+          "shortName": "AutofeedSettingsClient",
+          "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsClient"
+        },
+        "method": {
+          "shortName": "UpdateAutofeedSettings",
+          "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsService.UpdateAutofeedSettings",
+          "service": {
+            "shortName": "AutofeedSettingsService",
+            "fullName": "google.shopping.merchant.accounts.v1beta.AutofeedSettingsService"
           }
         }
       },
