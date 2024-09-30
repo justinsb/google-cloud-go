@@ -1,7 +1,7 @@
 {
   "clientLibrary": {
     "name": "cloud.google.com/go/shopping/merchant/accounts/apiv1beta",
-    "version": "0.10.0",
+    "version": "$VERSION",
     "language": "GO",
     "apis": [
       {
@@ -244,7 +244,7 @@
     {
       "regionTag": "merchantapi_v1beta_generated_AccountsService_DeleteAccount_sync",
       "title": "merchantapi DeleteAccount Sample",
-      "description": "DeleteAccount deletes the specified account regardless of its type: standalone, MCA or\nsub-account. Deleting an MCA leads to the deletion of all of its\nsub-accounts. Executing this method requires admin access.",
+      "description": "DeleteAccount deletes the specified account regardless of its type: standalone, MCA or\nsub-account. Deleting an MCA leads to the deletion of all of its\nsub-accounts. Executing this method requires admin access.\nThe deletion succeeds only if the account does not provide services\nto any other account and has no processed offers. You can use the `force`\nparameter to override this.",
       "file": "Client/DeleteAccount/main.go",
       "language": "GO",
       "clientMethod": {
@@ -335,7 +335,7 @@
     {
       "regionTag": "merchantapi_v1beta_generated_AccountsService_ListAccounts_sync",
       "title": "merchantapi ListAccounts Sample",
-      "description": "ListAccounts lists accounts accessible to the calling user and matching the\nconstraints of the request such as page size or filters.\nThis is not just listing the sub-accounts of an MCA, but all accounts the\ncalling user has access to including other MCAs, linked accounts,\nstandalone accounts and so on.",
+      "description": "ListAccounts lists accounts accessible to the calling user and matching the\nconstraints of the request such as page size or filters.\nThis is not just listing the sub-accounts of an MCA, but all accounts the\ncalling user has access to including other MCAs, linked accounts,\nstandalone accounts and so on. If no filter is provided, then it returns\naccounts the user is directly added to.",
       "file": "Client/ListAccounts/main.go",
       "language": "GO",
       "clientMethod": {
