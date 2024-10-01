@@ -1,5 +1,12 @@
 # Changes
 
+## [1.69.0](https://github.com/googleapis/google-cloud-go/compare/spanner/v1.68.0...spanner/v1.69.0) (2024-10-01)
+
+
+### Features
+
+* **spanner:** Add x-goog-spanner-end-to-end-tracing header for requests to Spanner ([#10241](https://github.com/googleapis/google-cloud-go/issues/10241)) ([7f61cd5](https://github.com/googleapis/google-cloud-go/commit/7f61cd579f7e4ed4f1ac161f2c2a28e931406f16))
+
 ## [1.68.0](https://github.com/googleapis/google-cloud-go/compare/spanner/v1.67.0...spanner/v1.68.0) (2024-09-25)
 
 
